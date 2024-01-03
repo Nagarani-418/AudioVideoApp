@@ -108,6 +108,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVPlayerViewContr
             }
         }catch{
             print("error setting up in audio session")
+            let alert = UIAlertController(title: "Error", message: "Oops! User has denied the permission to access the audio record from your app", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default)
+            alert.addAction(okAction)
+            self.present(alert, animated: true)
         }
     }
     //Save recording into the device
