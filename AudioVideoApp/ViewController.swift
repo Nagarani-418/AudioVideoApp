@@ -110,9 +110,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVPlayerViewContr
             print("error setting up in audio session")
         }
     }
+    //Save recording into the device
     func getDocumentsDirectory() -> URL{
         FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
     }
+    //get file path to play recorded audio
     func getFilePath(){
         audio = getDocumentsDirectory().appending(component: "recording.m4a")
     }
