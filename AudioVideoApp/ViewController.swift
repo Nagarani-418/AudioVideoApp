@@ -108,7 +108,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate, AVPlayerViewContr
             }
         }catch{
             let alert = UIAlertController(title: "Error", message: "Oops! User has denied the permission to access the audio record from your app", preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "OK", style: .default)
+            let okAction = UIAlertAction(title: "OK", style: .default){
+                _ in self.recordBtn.isEnabled = false
+            }
             alert.addAction(okAction)
             self.present(alert, animated: true)
         }
