@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "673F5E7E-4E3D-45A0-AF27-13B5A8ECAFA7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39D71968-602D-4D24-A610-DA5C827C26EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AudioVideoApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "playAudio(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "39D71968-602D-4D24-A610-DA5C827C26EA - 1532f70de7c74235"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioVideoApp.ViewController.playAudio(__C.UIButton) -&gt; ()"
+                  moduleName = "AudioVideoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simpro/Documents/AudioVideoApp/AudioVideoApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "39D71968-602D-4D24-A610-DA5C827C26EA - 1532f70de7c74235"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AudioVideoApp.ViewController.playAudio(__C.UIButton) -&gt; ()"
+                  moduleName = "AudioVideoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simpro/Documents/AudioVideoApp/AudioVideoApp/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
